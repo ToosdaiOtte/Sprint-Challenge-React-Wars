@@ -30,14 +30,22 @@ const StyledH3 = styled.h3`
 `
 
 const Card = styled.div`
-  width: 50%;
+  width: 25%;
+  height: 50%;
   margin: 0 auto;
   margin-bottom: 5%;
+  display: inline-block;
+
   border: 1px solid #000;
-  box-shadow: 10px 10px 10px #000;
+  box-shadow: 10px 10px 10px #383834;
+  transform-style: preserve-3d;
+  transition: 0.4s;
+
+  &:hover{
+    transform: rotatey(-180deg);
+
+  }
 `
-
-
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
