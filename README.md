@@ -26,13 +26,22 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React allows developers to create large web applications which can change data, without reloading the page.  the flow of data to components through one control point, make it easier to debug self-contained components of large ReactJS apps.
+
 - [ ] What does it mean to _think_ in react?
 
+Thinking in react is approaching the data flow by using props to pass data around and lifting state up.
+
 - [ ] Describe state.
+State allows components to change output over time in response to certain events. Unlike props, state strictly belongs to a single component.
 
 - [ ] Describe props.
 
+The idea behind props is that you can make a single component that is used in many different places in your app.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+A side effect is anything that affects something outside the scope of the function being executed. The effect hook tells React that a component needs to run some side effect. It takes in two parameters, the first being a callback funtion that runs the side effect. In order to pass state or prop changes as the second parameter, you pass in a dependency array.
 
 ## Project Set Up
 
