@@ -26,15 +26,14 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-React allows developers to create large web applications which can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple. React also uses one-way binding and an app architecture called Flux controls the flow of data to components through one control point, making it easier to debug self-contained components of large ReactJS apps.
+React allows developers to create large web applications which can change data, without reloading the page.  the flow of data to components through one control point, make it easier to debug self-contained components of large ReactJS apps.
 
 - [ ] What does it mean to _think_ in react?
 
-Thinking in react is approaching the data flow by simply using props to pass data around and lifting state up.
+Thinking in react is approaching the data flow by using props to pass data around and lifting state up.
 
 - [ ] Describe state.
-
-State allows React compponents to dynamically change output over time in response to certain events. Unlike props, state strictly belongs to a single component.
+State allows components to change output over time in response to certain events. Unlike props, state strictly belongs to a single component.
 
 - [ ] Describe props.
 
